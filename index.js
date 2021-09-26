@@ -2,12 +2,13 @@ var readLineSync = require("readline-sync")
 const chalk = require('chalk');
 var userName = readLineSync.question("Enter Your name? ")
 console.log(`Welcome ${userName} in my quizz`)
-
+console.log("")
+console.log("")
 
 
 
 var QuestionOne= {
-  question:"Who is your favorite superhero?",
+  question:"Who is my favorite superhero?",
   answer:"Dhruv"
 }
 var QuestionTwo= {
@@ -15,7 +16,7 @@ var QuestionTwo= {
   answer:"Channa Mereya"
 }
 var QuestionThree= {
-  question:"Who is your favourite Marvel Hero?",
+  question:"Who is my favourite Marvel Hero?",
   answer:"Spiderman"
 }
 var QuestionFour= {
